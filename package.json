@@ -1,5 +1,4 @@
 {
-  // ... autres champs ...
   "name": "pye-pycharm",
   "displayName": "Pye PyCharm Theme",
   "description": "A PyCharm inspired theme for VS Code",
@@ -24,11 +23,10 @@
     "med-mhamdi"
   ],
   "icon": "icon.png",
-  "repository": {  // <--- ASSURE-TOI QUE CETTE SECTION EST PRÉSENTE ET CORRECTE
+  "repository": {
     "type": "git",
     "url": "https://github.com/medjazz79/pye-pycharm-vscode-theme.git"
   },
-  // Tu peux aussi ajouter homepage et bugs si tu le souhaites, basés sur cette URL
   "homepage": "https://github.com/medjazz79/pye-pycharm-vscode-theme#readme",
   "bugs": {
     "url": "https://github.com/medjazz79/pye-pycharm-vscode-theme/issues"
