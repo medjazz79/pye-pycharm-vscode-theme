@@ -7,9 +7,11 @@ This theme, "Pye PyCharm Theme", brings the familiar dark, comfortable, and prod
 ## Features
 
 *   **PyCharm Inspired:** Colors and syntax highlighting are carefully chosen to emulate the well-loved PyCharm Darcula theme.
-*   **Dark & Consistent:** Provides a cohesive dark interface across the editor, terminal, sidebar, and other VS Code UI elements using a base background of `#2B2B2B`.
+*   **Enhanced RTL Support in Notebooks:** Improved readability for Right-to-Left languages (like Arabic) in Jupyter Notebook cells, including better margins for a more comfortable note-taking and study experience. This is particularly helpful when mixing RTL and LTR languages.
+*   **Optimized for Python & Jupyter Study:** Specifically designed to enhance the experience of learning, coding in Python, and taking notes within Jupyter Notebooks.
+*   **Dark & Consistent:** Provides a cohesive dark interface across the editor, terminal, sidebar, and other VS Code UI elements.
 *   **Optimized for Readability:** Focus on clear differentiation for keywords, strings, comments, and other code tokens.
-*   **Notebook Friendly:** Specific styles for Jupyter Notebook cells, borders, and status elements to enhance the notebook experience.
+*   **Notebook Friendly:** Specific styles for Jupyter Notebook cells, borders, and status elements.
 
 ## Installation
 
@@ -44,7 +46,7 @@ If you encounter any issues or have suggestions for improvement, please feel fre
 
 ---
 
-## Advanced Customizations (Optional) - Get the Full Look!
+## Advanced Customizations (Optional) - Enhanced Notebook Experience & RTL Support! - Get the Full Look!
 
 For those who want to replicate even more of the specific PyCharm notebook styling seen in some screenshots (like rounded corners on cells, specific margins, or hidden UI elements), you can apply custom CSS to your VS Code.
 
@@ -74,6 +76,7 @@ For those who want to replicate even more of the specific PyCharm notebook styli
 
 This custom CSS provides tweaks for:
 *   Notebook cell appearance (borders, radius, status indicators)
+*   **Improved margins and layout for RTL languages (e.g., Arabic) in rendered notebook cells, making note-taking much more comfortable.**
 *   Comment colors (though the theme aims to cover this)
 *   Other minor UI adjustments.
 
