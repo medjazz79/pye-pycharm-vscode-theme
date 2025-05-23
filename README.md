@@ -26,13 +26,17 @@ This theme, "Pye PyCharm Theme", brings the familiar dark, comfortable, and prod
 
 Here's a glimpse of the "Pye PyCharm Theme" in action:
 
-**Jupyter Notebook Example 1 (Markdown & Code Structure):**
+**Jupyter Notebook Example 1 :**
 
 ![Pye PyCharm Theme in a Jupyter Notebook showing Markdown and Python code structure](screenshots/pye-notebook%201.png)
 
-**Jupyter Notebook Example 2 (Python Function Definitions):**
+**Jupyter Notebook Example 2 :**
 
 ![Pye PyCharm Theme displaying Python function definitions in a Jupyter Notebook](screenshots/pye-notebook%202.png)
+
+**Jupyter Notebook Example 3 :**
+
+![Description de pye-notebook 3](screenshots/pye-notebook%203.png)
 
 ## Feedback and Contributions
 
