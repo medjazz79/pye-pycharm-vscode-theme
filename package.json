@@ -1,0 +1,35 @@
+{
+  "name": "pye-pycharm",
+  "displayName": "Pye PyCharm Theme",
+  "description": "A PyCharm inspired theme for VS Code",
+  "version": "0.0.1",
+  "publisher": "med-mhamdi",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "pycharm",
+    "darcula",
+    "python",
+    "jupyter",
+    "notebook",
+    "pye",
+    "med mhamdi",
+    "med-mhamdi"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pye PyCharm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pye-pycharm-color-theme.json"
+      }
+    ]
+  }
+}

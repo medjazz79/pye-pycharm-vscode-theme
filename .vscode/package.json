@@ -1,0 +1,22 @@
+{
+    "name": "mon-theme-perso",
+    "displayName": "Mon Thème Perso",
+    "description": "Mon thème personnalisé pour VS Code",
+    "version": "0.0.1",
+    "publisher": "med",
+    "engines": {
+        "vscode": "^1.70.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Mon Thème Perso",
+                "uiTheme": "vs-dark",
+                "path": "./themes/mon-theme-perso-color-theme.json"
+            }
+        ]
+    }
+}
