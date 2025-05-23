@@ -44,4 +44,39 @@ If you encounter any issues or have suggestions for improvement, please feel fre
 
 ---
 
-Enjoy the Pye PyCharm feel in your VS Code!
+## Advanced Customizations (Optional) - Get the Full Look!
+
+For those who want to replicate even more of the specific PyCharm notebook styling seen in some screenshots (like rounded corners on cells, specific margins, or hidden UI elements), you can apply custom CSS to your VS Code.
+
+**Please Note:** This method requires an additional extension and involves modifying VS Code in a way that is not officially supported. These customizations might be affected by VS Code updates. Proceed at your own discretion.
+
+1.  **Install the "Custom CSS and JS Loader" Extension:**
+    Search for `Custom CSS and JS Loader` in the VS Code Extensions view (by `beautify-web.beautify-vscode`) and install it.
+    (Marketplace Link: [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=beautify-web.beautify-vscode))
+
+2.  **Get the Custom CSS:**
+    The custom CSS file for these advanced tweaks is available in this theme's GitHub repository:
+    [**custom.css**](https://github.com/medjazz79/pye-pycharm-vscode-theme/blob/main/custom.css)
+    *(If you placed it in `extras/custom.css`, the link would be `.../blob/main/extras/custom.css`)*
+
+3.  **Configure "Custom CSS and JS Loader":**
+    *   Open your VS Code `settings.json` file (Ctrl+Shift+P or Cmd+Shift+P, then type "Preferences: Open User Settings (JSON)").
+    *   Add or update the following settings:
+        ```json
+        "vscode_custom_css.imports": [
+            "file:///C:/Path/To/Your/Saved/custom.css" // IMPORTANT: Replace with the ACTUAL path where YOU save the custom.css file on YOUR computer
+        ],
+        "vscode_custom_css.policy": true, // Enable stylesheet injection without prompting
+        "vscode_custom_css.statusbar": false // Optional: hide the status bar indicator
+        ```
+    *   **Important for users:** They will need to download the `custom.css` from your GitHub link and save it somewhere on THEIR computer, then update the path in `vscode_custom_css.imports` to point to where *they* saved it.
+    *   After configuring, run the command "Enable Custom CSS and JS" from the Command Palette (Ctrl+Shift+P or Cmd+Shift+P). You might need to restart VS Code.
+
+This custom CSS provides tweaks for:
+*   Notebook cell appearance (borders, radius, status indicators)
+*   Comment colors (though the theme aims to cover this)
+*   Other minor UI adjustments.
+
+---
+
+Enjoy the Pye PyCharm experience in VS Code!

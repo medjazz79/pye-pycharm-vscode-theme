@@ -1,0 +1,127 @@
+ /*.activitybar {
+    background-color:  red !important;  
+} */
+  
+/* Round Code Cells */
+.notebookOverlay .cell .cell-editor-part { /* Ou un conteneur plus spécifique de l'éditeur si existant */
+    border-radius: 6px; 
+    overflow: hidden;
+    color: #a3a3a3d9;
+}
+    
+
+
+/* Markdown cell Margin */
+.monaco-list-rows {
+    outline: none !important;
+    width: 97% !important; /* Conservez cette largeur car elle est la clé de la stabilité */
+
+
+}
+
+ 
+ /* Ce permet d'elargir les codes cells independament des cells Markdow. */
+.monaco-workbench .notebookOverlay>.cell-list-container>.monaco-list>.monaco-scrollable-element>.monaco-list-rows>.monaco-list-row,
+.monaco-workbench .notebookOverlay>.cell-list-container>.monaco-list>.monaco-scrollable-element>.monaco-list-rows>.monaco-list-row .cell-output-hover,
+.monaco-workbench .notebookOverlay>.cell-list-container>.monaco-list>.monaco-scrollable-element>.monaco-list-rows>.monaco-list-row.focused,
+.monaco-workbench .notebookOverlay>.monaco-list-row .cell-title-toolbar {
+    margin-left: unset !important; 
+    margin-right: unset !important;
+    width: 101% !important;  
+    max-width: 101% !important;
+
+} 
+ 
+ 
+
+/* Run by line (Debug buttons */
+.monaco-workbench .notebookOverlay.cell-title-toolbar-right > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .cell-title-toolbar {
+    transform: translateX(33px) !important;
+
+}
+
+.notebookOverlay .cell-bottom-toolbar-container .action-item, .notebookOverlay .cell-list-top-cell-toolbar-container .action-item, .notebookOverlay .monaco-list-row .cell-title-toolbar, .notebookOverlay .monaco-list-row.cell-drag-image {
+    background-color: #32302f00;
+}
+ay .cell-bottom-toolbar-container .action-item, .notebookOverlay .cell-list-top-cell-toolbar-container .action-item, .notebookOverlay .monaco-list-row .cell-title-toolbar {
+    border: 0px solid var(--vscode-notebook-cellToolbarSeparator);
+}
+
+ 
+
+
+/* MagicPython, markdown, raw....etc */
+.monaco-workbench .notebookOverlay .cell-statusbar-container .cell-status-item {
+    align-items: center;
+    display: flex;
+    height: 21px;
+    margin: 0 22px;
+    overflow: hidden;
+    padding: 0 3px;
+    text-overflow: clip;
+    white-space: pre;
+    font-size: 12px;
+    color: #9b9d9f;
+    font-weight: 200;
+ 
+
+}
+
+
+/* generate code markdown bottons */
+.monaco-workbench .notebookOverlay .cell-list-top-cell-toolbar-container .monaco-toolbar .action-label, .monaco-workbench .notebookOverlay>.cell-list-container>.monaco-list>.monaco-scrollable-element>.monaco-list-rows>.monaco-list-row .cell-bottom-toolbar-container .monaco-toolbar .action-label {
+    align-items: center;
+    border-radius: 0;
+    display: inline-flex;
+    font-size: 10px;
+    margin: 0;
+    padding: 0 4px;
+    background-color: transparent;
+    border: 0px
+    font-weight: 100;
+    color: #78808d;
+
+}
+.notebookOverlay .cell-bottom-toolbar-container .action-item, .notebookOverlay .cell-list-top-cell-toolbar-container .action-item, .notebookOverlay .monaco-list-row .cell-title-toolbar {
+    border: 1px solid rgb(128 128 128 / 0%);
+}
+.monaco-workbench .notebookOverlay .cell-list-top-cell-toolbar-container span.codicon, .monaco-workbench .notebookOverlay>.cell-list-container>.monaco-list>.monaco-scrollable-element>.monaco-list-rows>.monaco-list-row .cell-bottom-toolbar-container span.codicon {
+    font-size: 0;
+    text-align: center;
+ 
+}
+.monaco-workbench .notebookOverlay .cell-list-top-cell-toolbar-container .action-item, .monaco-workbench .notebookOverlay>.cell-list-container>.monaco-list>.monaco-scrollable-element>.monaco-list-rows>.monaco-list-row .cell-bottom-toolbar-container .action-item {
+    margin-left: -20px;
+    margin-right: 10px;
+
+}
+
+
+/* Icons and texte */
+ .monaco-icon-label>.monaco-icon-label-container>.monaco-icon-name-container>.label-name {
+	color: rgb(145 152 156);
+    white-space: pre;
+    font-size: 14px;
+}
+ 
+.monaco-icon-label:before {
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: 17px;
+    display: inline-block;
+    height: 22px;
+    line-height: inherit !important;
+    padding-right: 7px;
+    width: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    flex-shrink: 0;
+    vertical-align: top;
+}
+
+ 
+ /* Comments colors*/
+.mtk4 {
+    color: #504E4E;
+}
+ 
