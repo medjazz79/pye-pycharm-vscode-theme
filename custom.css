@@ -125,3 +125,24 @@ ay .cell-bottom-toolbar-container .action-item, .notebookOverlay .cell-list-top-
     color: #504E4E;
 }
  
+
+.monaco-workbench .part>.title>.title-actions .action-label {
+    background-position: 48%;
+    background-repeat: no-repeat;
+    background-size: 7px;
+    display: block;
+    padding: 0px;
+    color: #6a6a6a;
+}
+/* New file, new folder, refresh explorer, collapse folder in ewplorer*/
+.monaco-workbench .part>.title>.title-actions .action-label {
+    color: #6a6a6a;
+}
+/* Select Kernel */
+.monaco-action-bar {
+    color: #6a6a6a;
+}
+/* buttons: custom noteboo, add code cell....etc */
+.monaco-workbench .codicon {
+    color: #6a6a6a;
+}
